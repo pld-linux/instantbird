@@ -23,9 +23,9 @@ libpurple to connect to the different networks.
 
 %prep
 %setup -q -n %{name}-%{version}-src
-%patch0 -p0
-%patch2 -p0
-%patch1 -p0
+%patch -P0 -p0
+%patch -P2 -p0
+%patch -P1 -p0
 
 %build
 cd mozilla
